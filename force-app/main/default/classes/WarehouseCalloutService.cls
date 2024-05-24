@@ -46,7 +46,7 @@ public with sharing class WarehouseCalloutService implements Queueable, Database
 
         }
         if(productList.size()>0){
-            upsert productList;
+            upsert productList Warehouse_SKU__c;
         }
      }
   }
