@@ -5,7 +5,7 @@ public with sharing class WarehouseCalloutService implements Queueable, Database
     private static final String WAREHOUSE_URL = 'https://th-superbadge-apex.herokuapp.com/equipment';
 
     
-  Public static void getWarehouseInventory(){
+  public static void getWarehouseInventory(){
     String body;
       // Instantiate a new Http object
       Http h = new Http();
